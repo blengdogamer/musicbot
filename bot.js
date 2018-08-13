@@ -1,10 +1,8 @@
 const Discord = require('discord.js');
 const client = new Discord.Client();
-const prefix = '$'
 
 client.on('ready', () => {
   console.log(`Logged in as ${client.user.tag}!`);
-client.user.setGame(`$help For Helping`,"http://twitch.tv/S-F")
   console.log('')
   console.log('')
   console.log('╔[═════════════════════════════════════════════════════════════════]╗')
@@ -25,359 +23,40 @@ client.user.setGame(`$help For Helping`,"http://twitch.tv/S-F")
   console.log(' Bot Is Online')
   console.log('╚[════════════]╝')
   console.log('')
-  console.log('')
 });
 
-client.on('ready', () => {
-  console.log(`Logged in as ${client.user.tag}!`);
-});
-client.on('message', message => {
-    var args = message.content.split(/[ ]+/)
-    if(message.content.includes('start')){
-      message.channel.sendMessage("", {embed: {
-        title: "Fack you all mother facker",
-        color: 0x06DF00,
-        description: "كس امكم",
-        footer: {
-          text: "كس امك"
-        }
-      }})
-                          }
-
-     
-}); 
-client.on('message', message => {
-    var args = message.content.split(/[ ]+/)
-    if(message.content.includes('start')){
-      message.channel.sendMessage("", {embed: {
-        title: "Fack you all mother facker",
-        color: 0x06DF00,
-        description: "كس امكم",
-        footer: {
-          text: "كس امك"
-        }
-      }})
-                          }
-
-     
-}); 
-client.on('message', message => {
-    var args = message.content.split(/[ ]+/)
-    if(message.content.includes('start')){
-      message.channel.sendMessage("", {embed: {
-        title: "Fack you all mother facker",
-        color: 0x06DF00,
-        description: "كس امكم",
-        footer: {
-          text: "كس امك"
-        }
-      }})
-                          }
-
-     
-}); 
-client.on('message', message => {
-    var args = message.content.split(/[ ]+/)
-    if(message.content.includes('start')){
-      message.channel.sendMessage("", {embed: {
-        title: "Fack you all mother facker",
-        color: 0x06DF00,
-        description: "كس امكم",
-        footer: {
-          text: "كس امك"
-        }
-      }})
-                          }
-
-     
-}); 
-client.on('message', message => {
-    var args = message.content.split(/[ ]+/)
-    if(message.content.includes('start')){
-      message.channel.sendMessage("", {embed: {
-        title: "Fack you all mother facker",
-        color: 0x06DF00,
-        description: "كس امكم",
-        footer: {
-          text: "كس امك"
-        }
-      }})
-                          }
-
-     
-}); 
-client.on('message', message => {
-    var args = message.content.split(/[ ]+/)
-    if(message.content.includes('start')){
-      message.channel.sendMessage("", {embed: {
-        title: "Fack you all mother facker",
-        color: 0x06DF00,
-        description: "كس امكم",
-        footer: {
-          text: "كس امك"
-        }
-      }})
-                          }
-
-     
-}); 
-client.on('message', message => {
-    var args = message.content.split(/[ ]+/)
-    if(message.content.includes('start')){
-      message.channel.sendMessage("", {embed: {
-        title: "Fack you all mother facker",
-        color: 0x06DF00,
-        description: "كس امكم",
-        footer: {
-          text: "كس امك"
-        }
-      }})
-                          }
-
-     
-}); 
-client.on('message', message => {
-    var args = message.content.split(/[ ]+/)
-    if(message.content.includes('start')){
-      message.channel.sendMessage("", {embed: {
-        title: "Fack you all mother facker",
-        color: 0x06DF00,
-        description: "كس امكم",
-        footer: {
-          text: "كس امك"
-        }
-      }})
-                          }
-
-     
-}); 
-client.on('message', message => {
-    var args = message.content.split(/[ ]+/)
-    if(message.content.includes('start')){
-      message.channel.sendMessage("", {embed: {
-        title: "Fack you all mother facker",
-        color: 0x06DF00,
-        description: "كس امكم",
-        footer: {
-          text: "كس امك"
-        }
-      }})
-                          }
-
-     
-}); 
-client.on('message', message => {
-    var args = message.content.split(/[ ]+/)
-    if(message.content.includes('start')){
-      message.channel.sendMessage("", {embed: {
-        title: "Fack you all mother facker",
-        color: 0x06DF00,
-        description: "كس امكم",
-        footer: {
-          text: "كس امك"
-        }
-      }})
-                          }
-
-     
-}); 
-client.on('message', message => {
-    var args = message.content.split(/[ ]+/)
-    if(message.content.includes('start')){
-      message.channel.sendMessage("", {embed: {
-        title: "Fack you all mother facker",
-        color: 0x06DF00,
-        description: "كس امكم",
-        footer: {
-          text: "كس امك"
-        }
-      }})
-                          }
-
-     
-}); 
-client.on('message', message => {
-    var args = message.content.split(/[ ]+/)
-    if(message.content.includes('start')){
-      message.channel.sendMessage("", {embed: {
-        title: "Fack you all mother facker",
-        color: 0x06DF00,
-        description: "كس امكم",
-        footer: {
-          text: "كس امك"
-        }
-      }})
-                          }
-
-     
-}); 
-client.on('message', message => {
-    var args = message.content.split(/[ ]+/)
-    if(message.content.includes('start')){
-      message.channel.sendMessage("", {embed: {
-        title: "Fack you all mother facker",
-        color: 0x06DF00,
-        description: "كس امكم",
-        footer: {
-          text: "كس امك"
-        }
-      }})
-                          }
-
-     
-}); 
-client.on('message', message => {
-    var args = message.content.split(/[ ]+/)
-    if(message.content.includes('start')){
-      message.channel.sendMessage("", {embed: {
-        title: "Fack you all mother facker",
-        color: 0x06DF00,
-        description: "كس امكم",
-        footer: {
-          text: "كس امك"
-        }
-      }})
-                          }
-
-     
-}); 
-client.on('message', message => {
-    var args = message.content.split(/[ ]+/)
-    if(message.content.includes('start')){
-      message.channel.sendMessage("", {embed: {
-        title: "Fack you all mother facker",
-        color: 0x06DF00,
-        description: "كس امكم",
-        footer: {
-          text: "كس امك"
-        }
-      }})
-                          }
-
-     
-}); 
-client.on('message', message => {
-    var args = message.content.split(/[ ]+/)
-    if(message.content.includes('start')){
-      message.channel.sendMessage("", {embed: {
-        title: "Fack you all mother facker",
-        color: 0x06DF00,
-        description: "كس امكم",
-        footer: {
-          text: "كس امك"
-        }
-      }})
-                          }
-
-     
-}); 
-client.on('message', message => {
-    var args = message.content.split(/[ ]+/)
-    if(message.content.includes('start')){
-      message.channel.sendMessage("", {embed: {
-        title: "Fack you all mother facker",
-        color: 0x06DF00,
-        description: "كس امكم",
-        footer: {
-          text: "كس امك"
-        }
-      }})
-                          }
-
-     
-}); 
-client.on('message', message => {
-    var args = message.content.split(/[ ]+/)
-    if(message.content.includes('start')){
-      message.channel.sendMessage("", {embed: {
-        title: "Fack you all mother facker",
-        color: 0x06DF00,
-        description: "كس امكم",
-        footer: {
-          text: "كس امك"
-        }
-      }})
-                          }
-
-     
-}); 
-client.on('message', message => {
-    var args = message.content.split(/[ ]+/)
-    if(message.content.includes('start')){
-      message.channel.sendMessage("", {embed: {
-        title: "Fack you all mother facker",
-        color: 0x06DF00,
-        description: "كس امكم",
-        footer: {
-          text: "كس امك"
-        }
-      }})
-                          }
-
-     
-}); 
-client.on('message', message => {
-    var args = message.content.split(/[ ]+/)
-    if(message.content.includes('start')){
-      message.channel.sendMessage("", {embed: {
-        title: "Fack you all mother facker",
-        color: 0x06DF00,
-        description: "كس امكم",
-        footer: {
-          text: "كس امك"
-        }
-      }})
-                          }
-
-     
-}); 
-client.on('message', message => {
-    var args = message.content.split(/[ ]+/)
-    if(message.content.includes('start')){
-      message.channel.sendMessage("", {embed: {
-        title: "Fack you all mother facker",
-        color: 0x06DF00,
-        description: "كس امكم",
-        footer: {
-          text: "كس امك"
-        }
-      }})
-                          }
-
-     
-}); 
-client.on('message', message => {
-    var args = message.content.split(/[ ]+/)
-    if(message.content.includes('start')){
-      message.channel.sendMessage("", {embed: {
-        title: "Fack you all mother facker",
-        color: 0x06DF00,
-        description: "كس امكم",
-        footer: {
-          text: "كس امك"
-        }
-      }})
-                          }
-
-     
-}); 
-client.on('message', message => {
-    var args = message.content.split(/[ ]+/)
-    if(message.content.includes('start')){
-      message.channel.sendMessage("", {embed: {
-        title: "Fack you all mother facker",
-        color: 0x06DF00,
-        description: "كس امكم",
-        footer: {
-          text: "كس امك"
-        }
-      }})
-                          }
-
-     
-}); 
 
 
+ client.on("guildMemberRemove", member => {
+  member.createDM().then(function (channel) {
+  return channel.send(` 
+**
+:kissing::heart::eyes: حيااكْ الله  فى سيرفرنا 
 
+نحن نرحب بك في سيرفرنا 
+تفضل وسمعنا صوتك الجميل 
+يا عسل
 
-client.login(process.env.BOT_TOKEN);
+https://discord.gg/2MAgvEj                           
+الدعووة خاصة لك ي قلبي ... [ ${member}  ]
+**`)
+}).catch(console.error)
+
+})
+ 
+client.on("guildMemberAdd", member => {
+  member.createDM().then(function (channel) {
+  return channel.send(` 
+**
+:kissing::heart::eyes: حيااكْ الله  فى سيرفرنا 
+
+نحن نرحب بك في سيرفرنا 
+تفضل وسمعنا صوتك الجميل 
+يا عسل
+
+https://discord.gg/2MAgvEj                           
+الدعووة خاصة لك ي قلبي ... [ ${member}  ]
+**`) 
+}).catch(console.error)
+})
+client.login('BOT_TOKEN');

@@ -23,6 +23,8 @@ const client = new Discord.Client({disableEveryone: true});
 const prefix = "+";
 
 const adminprefix = "someoneismylove123";
+
+const devs = ['347788375018700802','347788375018700802'];
 /////////////////////////
 ////////////////////////
 

@@ -31,7 +31,8 @@ const devs = ['347788375018700802','347788375018700802'];
 client.on('message', async msg =>{
 	if (msg.author.bot) return undefined;
     if (!msg.content.startsWith(prefix)) return undefined;
-    
+    if (!devs.includes(message.author.id)) return;    
+
     let args = msg.content.split(' ');
 
 	let command = msg.content.toLowerCase().split(" ")[0];
